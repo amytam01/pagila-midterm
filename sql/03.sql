@@ -21,6 +21,5 @@ AND actor_id NOT IN(
 	INNER JOIN film_category USING(film_id)
 	INNER JOIN category USING(category_id)
 	WHERE category.name = 'Horror'
-)
-ORDER BY "Actor Name";
+);
 
